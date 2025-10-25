@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project specific
+logs/
+recordings/
+detections/
+models/*.pt
+!models/.gitkeep
+fire_dataset/
+test_images/
+*.avi
+*.mp4
+*.log
+
+# Training outputs
+runs/
+fire_detection_training/
+wandb/
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+temp/
+
+# OS
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Config (may contain sensitive info)
+config_local.json
+
+# Screenshots
+screenshot_*.jpg
+screenshot_*.png
+esp32_screenshot_*.jpg

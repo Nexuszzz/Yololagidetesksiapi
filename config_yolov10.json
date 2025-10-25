@@ -1,0 +1,20 @@
+{
+    "esp32_cam_url": "http://192.168.2.100:81/stream",
+    "model_path": "models/fire.pt",
+    "conf_threshold": 0.25,
+    "high_conf_threshold": 0.45,
+    "min_fire_area": 20,
+    "max_fire_area": 100000,
+    "fire_pixel_ratio_threshold": 0.10,
+    "saturation_boost": 2.0,
+    "brightness_boost": 1.5,
+    "enable_fire_enhancement": true,
+    "alert_cooldown": 5,
+    "enable_sound_alert": true,
+    "enable_video_recording": true,
+    "max_recording_duration": 60,
+    "log_dir": "logs",
+    "recordings_dir": "recordings",
+    "display_window": true,
+    "save_detection_images": true
+}

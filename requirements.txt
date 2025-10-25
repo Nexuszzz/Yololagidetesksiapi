@@ -1,0 +1,22 @@
+# ESP32-CAM Fire Detection System - Python Dependencies
+# Install dengan: pip install -r requirements.txt
+
+# Deep Learning & Computer Vision
+ultralytics>=8.0.0          # YOLOv8 framework
+opencv-python>=4.8.0        # OpenCV untuk image processing
+numpy>=1.24.0               # Array operations
+torch>=2.0.0                # PyTorch (required by YOLOv8)
+torchvision>=0.15.0         # Computer vision utilities
+
+# Network & HTTP
+requests>=2.31.0            # HTTP requests untuk stream ESP32-CAM
+urllib3>=2.0.0              # URL handling
+
+# Utilities
+Pillow>=10.0.0              # Image processing
+tqdm>=4.65.0                # Progress bars
+pyyaml>=6.0                 # YAML config support
+
+# Optional: untuk training model custom
+# roboflow                  # Dataset management
+# wandb                     # Experiment tracking
