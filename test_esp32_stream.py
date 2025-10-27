@@ -14,7 +14,7 @@ from datetime import datetime
 import time
 
 
-def test_esp32_stream(url="http://192.168.2.100:81/stream", duration=10):
+def test_esp32_stream(url="http://10.75.111.90:81/stream", duration=10):
     """
     Test ESP32-CAM MJPEG stream
     
@@ -171,7 +171,7 @@ def main():
     import argparse
     
     parser = argparse.ArgumentParser(description='Test ESP32-CAM Stream')
-    parser.add_argument('--url', type=str, default='http://192.168.2.100:81/stream',
+    parser.add_argument('--url', type=str, default='http://10.75.111.90:81/stream',
                        help='ESP32-CAM stream URL')
     parser.add_argument('--duration', type=int, default=0,
                        help='Test duration in seconds (0 for unlimited)')
@@ -201,7 +201,7 @@ def main():
         print("   1. Cek Serial Monitor ESP32-CAM untuk IP address")
         print("   2. Pastikan WiFi credentials benar")
         print("   3. Test ping ESP32-CAM: python test_esp32_stream.py --ping")
-        print("   4. Buka browser dan akses: http://192.168.2.100:81/stream")
+        print("   4. Buka browser dan akses: http://10.75.111.90:81/stream")
 
 
 if __name__ == "__main__":

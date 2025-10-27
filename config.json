@@ -1,5 +1,5 @@
 {
-    "esp32_cam_url": "http://192.168.2.100:81/stream",
+    "esp32_cam_url": "http://10.75.111.90:81/stream",
     "model_path": "models/yolov8n.pt",
     "confidence_threshold": 0.75,
     "alert_cooldown": 5,

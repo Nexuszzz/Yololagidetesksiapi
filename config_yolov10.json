@@ -1,11 +1,11 @@
 {
-    "esp32_cam_url": "http://192.168.2.100:81/stream",
+    "esp32_cam_url": "http://10.75.111.90:81/stream",
     "model_path": "models/fire.pt",
     "conf_threshold": 0.25,
     "high_conf_threshold": 0.45,
     "min_fire_area": 20,
     "max_fire_area": 100000,
-    "fire_pixel_ratio_threshold": 0.10,
+    "fire_pixel_ratio_threshold": 0.1,
     "saturation_boost": 2.0,
     "brightness_boost": 1.5,
     "enable_fire_enhancement": true,
@@ -16,5 +16,13 @@
     "log_dir": "logs",
     "recordings_dir": "recordings",
     "display_window": true,
-    "save_detection_images": true
+    "save_detection_images": true,
+    "mqtt": {
+        "host": "13.213.57.228",
+        "port": 1883,
+        "user": "zaks",
+        "password": "engganngodinginginmcu",
+        "topic_alert": "lab/zaks/alert",
+        "topic_event": "lab/zaks/event"
+    }
 }
