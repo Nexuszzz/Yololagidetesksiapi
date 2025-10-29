@@ -1,0 +1,5 @@
+{
+  "model_path": "fire_yolov8s_ultra_best.pt",
+  "esp32_cam_url": "http://10.75.111.108:81/stream",
+  "gemini_api_key": "AIzaSyBFSMHncnK-G9OxjPE90H7wnYGkpGOcdEw"
+}

@@ -1,0 +1,29 @@
+{
+  "model_path": "fire_yolov8s_ultra_best.pt",
+  "use_esp32_cam": true,
+  "esp32_cam_url": "http://10.75.111.108:81/stream",
+  "webcam_id": 0,
+  "conf_threshold": 0.45,
+  "high_conf_threshold": 0.65,
+  "critical_conf_threshold": 0.8,
+  "min_fire_area": 150,
+  "max_fire_area": 250000,
+  "fire_pixel_ratio_threshold": 0.2,
+  "high_confidence_pixel_ratio": 0.35,
+  "motion_threshold": 3.5,
+  "detection_history_size": 30,
+  "min_consistent_detections": 12,
+  "gemini_enabled": false,
+  "gemini_api_key": "AIzaSyBFSMHncnK-G9OxjPE90H7wnYGkpGOcdEw",
+  "mqtt_enabled": false,
+  "mqtt": {
+    "host": "13.213.57.228",
+    "port": 1883,
+    "user": "zaks",
+    "password": "engganngodinginginmcu",
+    "topic_alert": "lab/zaks/alert",
+    "topic_event": "lab/zaks/event"
+  },
+  "alert_cooldown": 5,
+  "detections_dir": "detections"
+}
